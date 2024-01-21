@@ -3,7 +3,9 @@ Live link:
 
 ## Getting Started
 
-First,copy the git repo then run the development server:
+First,copy the git repo `https://github.com/rexaulrana/next-recipe.git`
+
+then run the development server:
 
 ```bash
 npm i
