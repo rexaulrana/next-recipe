@@ -5,7 +5,7 @@ const Recipe = ({ singleRecipe }) => {
   // console.log(singleRecipe);
   const { id, label, ingredients, instructions } = singleRecipe;
   return (
-    <div className="card   bg-base-100 hover:bg-gray-300 shadow-xl border-2 border-black">
+    <div className="card   bg-base-100 hover:bg-gray-300 shadow-xl border-2 border-slate-300">
       <div className="card-body">
         <h2 className="card-title  text-center"> {label}</h2>
 
