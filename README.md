@@ -3,7 +3,11 @@ Live link:
 
 ## Getting Started
 
-First,copy the git repo `https://github.com/rexaulrana/next-recipe.git`
+First,copy the git repo
+
+```
+https://github.com/rexaulrana/next-recipe.git
+```
 
 then run the development server:
 
