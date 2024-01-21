@@ -19,7 +19,7 @@ const RecipeDetails = async ({ params }) => {
       </h1>
       <div className="card  bg-base-100 shadow-xl">
         <div className="card-body">
-          <h2 className="text-xl text-centers font-semibold md:text-center">
+          <h2 className="text-xl  font-semibold md:text-center">
             Name: {label}
           </h2>
 

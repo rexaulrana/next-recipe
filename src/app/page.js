@@ -4,7 +4,7 @@ import ingredients from "../../ingredients.json";
 export default function Home() {
   return (
     <main className="">
-      <h1 className="text-4xl font-bold text-center mt-3">Recipe app</h1>
+      <h1 className="text-xl font-bold text-center mt-3">All Recipe</h1>
 
       <Recipes></Recipes>
     </main>

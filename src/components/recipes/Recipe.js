@@ -7,7 +7,7 @@ const Recipe = ({ singleRecipe }) => {
   return (
     <div className="card   bg-base-100 hover:bg-gray-300 shadow-xl border-2 border-black">
       <div className="card-body">
-        <h2 className="card-title"> {label}</h2>
+        <h2 className="card-title  text-center"> {label}</h2>
 
         <div className="card-actions justify-center mt-5">
           <Link href={`/details/${id}`} className="btn btn-accent">

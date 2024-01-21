@@ -8,8 +8,7 @@ const Recipes = async () => {
   // console.log(result);
   return (
     <div className="">
-      <h2 className="text-right px-10 mt-10">Create recipe</h2>
-      <div className=" mt-10 grid grid-cols-1 md:grid-cols-3  gap-5">
+      <div className=" mb-4 px-2 mt-1 grid grid-cols-1 md:grid-cols-3  gap-5">
         {result?.map((recipe) => (
           <Recipe singleRecipe={recipe} key={result.id}></Recipe>
         ))}
